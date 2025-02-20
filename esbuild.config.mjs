@@ -30,6 +30,7 @@ const context = await esbuild.context({
 		"@codemirror/view",
 		"@lezer/common",
 		"@lezer/highlight",
+		"node:*", 
 		"@lezer/lr",
 		...builtins],
 	format: "cjs",
