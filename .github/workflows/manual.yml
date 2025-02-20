@@ -25,6 +25,7 @@ jobs:
       - name: Build plugin
         run: |
           npm install
+          npm install -g node-fetch
           npm run build
 
       - name: Create release
